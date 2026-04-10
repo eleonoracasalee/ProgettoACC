@@ -38,7 +38,7 @@ La valutazione è stata effettuata utilizzando:
 - **5-Fold Cross-Validation:** Per garantire che i risultati siano stabili e non dipendano dalla singola divisione dei dati.
 
 ## Risultati
-I risultati mostrano come il modello **Random Forest** riesca a fornire previsioni più accurate rispetto alla regressione lineare, evidenziando l'importanza cruciale di fattori come le ore di studio e i punteggi precedenti.
+I risultati mostrano come il modello **Random Forest** riesca a fornire previsioni più accurate rispetto alla regressione lineare, evidenziando l'importanza cruciale di fattori come l'attendance, le ore di studio e i punteggi precedenti.
 
 ## Struttura del repository
 - `progettoacc.ipynb`: Jupyter Notebook con l'intero flusso di analisi e codice.
