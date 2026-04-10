@@ -1,6 +1,6 @@
-# ProgettoACC
+# ProgettoACC (Annaro-Casale-Chicco)
 # Student performance prediction
-**Progetto di Analisi Predittiva e Machine Learning**
+**Progetto di Analisi predittiva e Machine Learning**
 
 Questo progetto analizza un dataset relativo ai fattori che influenzano i risultati accademici degli studenti. L'obiettivo è costruire un modello in grado di prevedere l'**Exam Score** finale basandosi su variabili comportamentali, socio-economiche e scolastiche.
 
