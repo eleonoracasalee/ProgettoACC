@@ -20,10 +20,10 @@ Il file `StudentPerformanceFactors.csv` contiene dati su:
 
 ### 1. Preprocessing & cleaning
 Il dataset è stato pulito e trasformato per essere digeribile dagli algoritmi:
-- **Gestione Missing Values:** Imputazione dei valori nulli tramite la **mediana** (per le numeriche) e la **moda** (per le categoriche).
+- **Gestione missing values:** Imputazione dei valori nulli tramite la **mediana** (per le numeriche) e la **moda** (per le categoriche).
 - **Ordinal Encoding:** Mappatura manuale per variabili con un ordine logico (es. *Low* → 0, *Medium* → 1, *High* → 2).
 - **One-Hot Encoding:** Trasformazione delle variabili nominali (es. *Gender*, *School Type*) in valori numerici 0/1.
-- **Boolean Conversion:** Tutti i valori booleani sono stati convertiti in interi (0/1).
+- **Boolean conversion:** Tutti i valori booleani sono stati convertiti in interi (0/1).
 
 ### 2. Modellazione
 Sono stati implementati due approcci differenti:
@@ -33,7 +33,8 @@ Sono stati implementati due approcci differenti:
 ### 3. Valutazione
 La valutazione è stata effettuata utilizzando:
 - **R² Score:** Per misurare la varianza spiegata dal modello.
-- **MAE (Mean Absolute Error):** Per quantificare l'errore medio nelle previsioni del voto.
+- **MAE (Mean Absolute Error):** Per quantificare l'errore medio puro nelle previsioni del voto.
+- **RMSE (Root Mean Squared Error):** Per quantificare la radice dell'MSE (l'errore quadratico medio) nelle previsioni del voto.
 - **5-Fold Cross-Validation:** Per garantire che i risultati siano stabili e non dipendano dalla singola divisione dei dati.
 
 ## Risultati
